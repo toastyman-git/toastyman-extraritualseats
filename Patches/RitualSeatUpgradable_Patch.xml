@@ -1,0 +1,30 @@
+<Patch>
+
+<!-- add custom CompProperties_RitualSeatUpgradable to Ideology DLC ritual seats -->
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName = "Pew"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName = "Pew"]</xpath>
+					<value>
+						<comps />
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Pew"]/comps</xpath>
+				<value>
+					<li Class="ExtraRitualSeats.CompProperties_RitualSeatUpgradable">
+						<upgradeThingDefs>
+							<li>TST_CushionedPew</li>
+						</upgradeThingDefs>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+
+</Patch>

@@ -1,0 +1,21 @@
+<Defs>
+
+    <ThingStyleDef MayRequire="sarg.alphamemes">
+        <defName>TST_Neolithic_KneelSheet</defName>
+        <graphicData>
+            <texPath>BuildingStyles/AM_Neolithic/KneelSheet/KneelSheet</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(2,2)</drawSize>
+        </graphicData>
+    </ThingStyleDef>
+
+    <ThingStyleDef MayRequire="sarg.alphamemes">
+        <defName>TST_Neolithic_KneelPillow</defName>
+        <graphicData>
+            <texPath>BuildingStyles/AM_Neolithic/KneelPillow/KneelPillow</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(1,1)</drawSize>
+        </graphicData>
+    </ThingStyleDef>
+
+</Defs>

@@ -1,0 +1,16 @@
+<Defs>
+
+  <ThingStyleDef MayRequire="anthitei.athsstylegothic.style">
+    <defName>TST_BloodyGothic_CushionedPew</defName>
+    <graphicData>
+      <texPath>BuildingStyles/ATH_BloodyGothic/CushionedPew/CushionedPew</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,1)</drawSize>
+      <shadowData>
+        <volume>(0.8, 1, 0.8)</volume>
+      </shadowData>
+    </graphicData>
+  </ThingStyleDef>
+
+</Defs>

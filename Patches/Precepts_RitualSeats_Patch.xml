@@ -1,0 +1,17 @@
+<Patch>
+
+<!-- add ritual seats to precepts screen -->
+
+	<Operation Class="PatchOperationAdd">
+		<success>Normal</success>
+	    <xpath>/Defs/PreceptDef[defName = "IdeoRitualSeat"]/buildingDefChances</xpath>
+		<value>
+			<TST_CushionedPew>0.5</TST_CushionedPew>
+			<TST_BoxPew>0.5</TST_BoxPew>
+			<TST_PrieDieu>0.75</TST_PrieDieu>
+			<TST_SlabPew>0.2</TST_SlabPew>
+			<TST_WorshipPit>0.2</TST_WorshipPit>
+		</value>
+	</Operation>
+
+</Patch>

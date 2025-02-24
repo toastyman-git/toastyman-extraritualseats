@@ -1,0 +1,21 @@
+<Defs>
+
+    <ThingStyleDef MayRequire="vanillaexpanded.vmemese">
+        <defName>TST_Serketist_KneelSheet</defName>
+        <graphicData>
+            <texPath>BuildingStyles/VME_Serketist/KneelSheet/KneelSheet</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(2,2)</drawSize>
+        </graphicData>
+    </ThingStyleDef>
+
+    <ThingStyleDef MayRequire="vanillaexpanded.vmemese">
+        <defName>TST_Serketist_KneelPillow</defName>
+        <graphicData>
+            <texPath>BuildingStyles/VME_Serketist/KneelPillow/KneelPillow</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(1,1)</drawSize>
+        </graphicData>
+    </ThingStyleDef>
+
+</Defs>

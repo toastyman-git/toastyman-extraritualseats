@@ -1,0 +1,37 @@
+<Defs>
+
+  <ThingStyleDef>
+    <defName>TST_Techist_Pew</defName>
+    <graphicData>
+      <texPath>BuildingStyles/Techist/Pew/Pew</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,1)</drawSize>
+      <shadowData>
+        <volume>(0.8, 1, 0.8)</volume>
+      </shadowData>
+    </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+      <defName>TST_Techist_KneelSheet</defName>
+      <graphicData>
+          <texPath>BuildingStyles/Techist/KneelSheet/KneelSheet</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>(2,2)</drawSize>
+      </graphicData>
+  </ThingStyleDef>
+
+  <ThingStyleDef>
+    <defName>TST_Techist_CushionedPew</defName>
+    <graphicData>
+      <texPath>BuildingStyles/Techist/CushionedPew/CushionedPew</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,1)</drawSize>
+      <shadowData>
+        <volume>(0.8, 1, 0.8)</volume>
+      </shadowData>
+    </graphicData>
+  </ThingStyleDef>
+
+</Defs>

@@ -1,0 +1,197 @@
+<Patch>
+
+<!-- Morbid Style -->
+
+	<Operation Class="PatchOperationAdd">
+		<success>Normal</success>
+		<xpath>/Defs/StyleCategoryDef[defName = "Morbid"]/thingDefStyles</xpath>
+		<value>
+			<li>
+				<thingDef>Pew</thingDef>
+				<styleDef>TST_Morbid_Pew</styleDef>
+			</li>
+			<li>
+				<thingDef>TST_CushionedPew</thingDef>
+				<styleDef>TST_Morbid_CushionedPew</styleDef>
+			</li>
+		</value>
+	</Operation>
+
+<!-- Techist Style -->
+
+	<Operation Class="PatchOperationAdd">
+		<success>Normal</success>
+		<xpath>/Defs/StyleCategoryDef[defName = "Techist"]/thingDefStyles</xpath>
+		<value>
+			<li>
+				<thingDef>Pew</thingDef>
+				<styleDef>TST_Techist_Pew</styleDef>
+			</li>
+			<li>
+				<thingDef>KneelSheet</thingDef>
+				<styleDef>TST_Techist_KneelSheet</styleDef>
+			</li>
+			<li>
+				<thingDef>TST_CushionedPew</thingDef>
+				<styleDef>TST_Techist_CushionedPew</styleDef>
+			</li>
+		</value>
+	</Operation>
+
+<!-- [DV] Dwarven Style -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Stoneborn - Dwarven Style Pack</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/StyleCategoryDef[defName = "DV_Dwarven"]/thingDefStyles</xpath>
+			<value>
+				<li>
+					<thingDef>Pew</thingDef>
+					<styleDef>TST_Dwarven_Pew</styleDef>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+<!-- [VME] Serketist Style -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Ideology Expanded - Memes and Structures</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/StyleCategoryDef[defName = "VME_Serketist"]/thingDefStyles</xpath>
+			<value>
+				<li>
+					<thingDef>KneelSheet</thingDef>
+					<styleDef>TST_Serketist_KneelSheet</styleDef>
+				</li>
+				<li>
+					<thingDef>KneelPillow</thingDef>
+					<styleDef>TST_Serketist_KneelPillow</styleDef>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+<!-- [VME] Hedonist Style -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Ideology Expanded - Memes and Structures</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/StyleCategoryDef[defName = "VME_Hedonist"]/thingDefStyles</xpath>
+			<value>
+				<li>
+					<thingDef>KneelSheet</thingDef>
+					<styleDef>TST_Hedonist_KneelSheet</styleDef>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+<!-- [AM] Jewish Style -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Memes</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/StyleCategoryDef[defName = "AM_Jewish"]/thingDefStyles</xpath>
+			<value>
+				<li>
+					<thingDef>Pew</thingDef>
+					<styleDef>TST_Jewish_Pew</styleDef>
+				</li>
+				<li>
+					<thingDef>TST_CushionedPew</thingDef>
+					<styleDef>TST_Jewish_CushionedPew</styleDef>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+<!-- [AM] Neolithic Style -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Memes</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/StyleCategoryDef[defName = "AM_Neolithic"]/thingDefStyles</xpath>
+			<value>
+				<li>
+					<thingDef>Pew</thingDef>
+					<styleDef>TST_Jewish_Pew</styleDef>
+				</li>
+				<li>
+					<thingDef>KneelSheet</thingDef>
+					<styleDef>TST_Neolithic_KneelSheet</styleDef>
+				</li>
+				<li>
+					<thingDef>KneelPillow</thingDef>
+					<styleDef>TST_Neolithic_KneelPillow</styleDef>
+				</li>
+				<li>
+					<thingDef>TST_CushionedPew</thingDef>
+					<styleDef>TST_Jewish_CushionedPew</styleDef>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+<!-- [AM] Ocular Style -->
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Memes</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/StyleCategoryDef[defName = "AM_Ocular"]/thingDefStyles</xpath>
+			<value>
+				<li>
+					<thingDef>KneelPillow</thingDef>
+					<styleDef>TST_Ocular_KneelPillow</styleDef>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+<!-- [ATH] Gothic Style -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>ATH's style Gothic and Bloody Gothic</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/StyleCategoryDef[defName = "Gothic"]/thingDefStyles</xpath>
+			<value>
+				<li>
+					<thingDef>TST_CushionedPew</thingDef>
+					<styleDef>TST_Gothic_CushionedPew</styleDef>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+<!-- [ATH] Bloody Gothic Style -->
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>ATH's style Gothic and Bloody Gothic</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/StyleCategoryDef[defName = "BloodyGothic"]/thingDefStyles</xpath>
+			<value>
+				<li>
+					<thingDef>TST_CushionedPew</thingDef>
+					<styleDef>TST_BloodyGothic_CushionedPew</styleDef>
+				</li>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

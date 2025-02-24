@@ -1,0 +1,215 @@
+<Defs>
+
+  <ThingDef ParentName="RitualSeatBase">
+    <defName>TST_CushionedPew</defName>
+    <label>cushioned pew</label>
+    <description>A long bench where ritual participants can sit while listening to a speaker. It has cushions and a wooden frame that offer extra comfort.</description>
+    <graphicData>
+      <texPath>Buildings/CushionedPew/CushionedPew</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(3,1)</drawSize>
+      <shadowData>
+        <volume>(0.8, 1, 0.8)</volume>
+      </shadowData>
+    </graphicData>
+    <fillPercent>0.35</fillPercent>
+    <size>(3,1)</size>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costStuffCount>45</costStuffCount>
+    <costList>
+      <WoodLog>100</WoodLog>
+    </costList>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>2400</WorkToBuild>
+      <Beauty>10</Beauty>
+      <Flammability>1.0</Flammability>
+      <Comfort>0.80</Comfort>
+      <Mass>15</Mass>
+      <StyleDominance>5</StyleDominance>
+    </statBases>
+    <building>
+      <multiSittable>true</multiSittable>
+      <paintable>true</paintable>
+    </building>
+    <comps Inherit="False">
+      <li Class="CompProperties_Styleable" />
+      <li Class="ExtraRitualSeats.CompProperties_RitualSeatUpgrade">
+        <baseThingDef>Pew</baseThingDef>
+      </li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>ComplexFurniture</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+<ThingDef ParentName="RitualSeatBase">
+    <defName>TST_BoxPew</defName>
+    <label>box pew</label>
+    <description>A bench where ritual participants can sit while listening to a speaker. It is enclosed by low-lying walls that provide some privacy (and cover) but are not high enough to block movement through them.</description>
+    <graphicData>
+      <texPath>Buildings/BoxPew/BoxPew</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <shadowData>
+        <volume>(0.8, 1.2, 0.8)</volume>
+      </shadowData>
+    </graphicData>
+    <fillPercent>0.5</fillPercent>
+    <size>(2,2)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>140</costStuffCount>
+    <statBases>
+      <MaxHitPoints>140</MaxHitPoints>
+      <WorkToBuild>2400</WorkToBuild>
+      <Beauty>10</Beauty>
+      <Flammability>1.0</Flammability>
+      <Comfort>0.60</Comfort>
+      <Mass>20</Mass>
+      <StyleDominance>5</StyleDominance>
+    </statBases>
+    <building>
+      <multiSittable>true</multiSittable>
+      <paintable>true</paintable>
+      <sitIgnoreOrientation>true</sitIgnoreOrientation>
+    </building>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>ComplexFurniture</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="RitualSeatBase">
+    <defName>TST_PrieDieu</defName>
+    <label>prie-dieu</label>
+    <description>A bench on which believers kneel while observing rituals, praying, or discussing.</description>
+    <graphicData>
+      <texPath>Buildings/PrieDieu/PrieDieu</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(0.23, 0.26, 0.23)</volume>
+      </shadowData>
+    </graphicData>
+    <fillPercent>0.35</fillPercent>
+    <size>(1,1)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>45</costStuffCount>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>2400</WorkToBuild>
+      <Beauty>10</Beauty>
+      <Flammability>1.0</Flammability>
+      <Comfort>0.60</Comfort>
+      <Mass>5</Mass>
+      <StyleDominance>5</StyleDominance>
+    </statBases>
+    <building>
+      <paintable>true</paintable>
+    </building>
+    <researchPrerequisites>
+      <li>ComplexFurniture</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="RitualSeatBase">
+    <defName>TST_SlabPew</defName>
+    <label>slab pew</label>
+    <description>A long bench on which believers kneel while observing rituals, praying, or discussing. It is quite uncomfortable.</description>
+    <graphicData>
+      <texPath>Buildings/SlabPew/SlabPew</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,1)</drawSize>
+      <shadowData>
+        <volume>(0.8, 1, 0.8)</volume>
+      </shadowData>
+    </graphicData>
+    <fillPercent>0.35</fillPercent>
+    <size>(3,1)</size>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>85</costStuffCount>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>2400</WorkToBuild>
+      <Beauty>5</Beauty>
+      <Flammability>1.0</Flammability>
+      <Comfort>0</Comfort>
+      <Mass>15</Mass>
+      <StyleDominance>5</StyleDominance>
+    </statBases>
+    <building>
+      <multiSittable>true</multiSittable>
+      <paintable>true</paintable>
+      <sitIgnoreOrientation>true</sitIgnoreOrientation>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="RitualSeatBase">
+    <defName>TST_WorshipPit</defName>
+    <label>worship pit</label>
+    <description>A dug out pit deep enough for colonists to climb up out of with reasonable difficulty. Some ideoligions use it to feel closer to the earth, express their shame, or for some other ideoligious reason.</description>
+    <graphicData>
+      <texPath>Buildings/WorshipPit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <fillPercent>0.35</fillPercent>
+    <minifiedDef IsNull="True" />
+    <size>(2,2)</size>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <WorkToBuild>2800</WorkToBuild>
+      <Beauty>-10</Beauty>
+      <Flammability>0.0</Flammability>
+      <Comfort>0.20</Comfort>
+      <StyleDominance>5</StyleDominance>
+    </statBases>
+		<altitudeLayer>Floor</altitudeLayer>
+    <thingCategories Inherit="False" />
+		<blockWind>false</blockWind>
+    <castEdgeShadows>false</castEdgeShadows>
+    <coversFloor>true</coversFloor>
+    <rotatable>false</rotatable>
+		<stealable>false</stealable>
+    <terrainAffordanceNeeded>Diggable</terrainAffordanceNeeded>
+    <defaultPlacingRot>North</defaultPlacingRot>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+		<blockLight>false</blockLight>
+		<canOverlapZones>false</canOverlapZones>
+		<constructEffect>ConstructDirt</constructEffect>
+		<repairEffect>ConstructDirt</repairEffect>
+    <building>
+      <multiSittable>true</multiSittable>
+      <isInert>true</isInert>
+      <sitIgnoreOrientation>true</sitIgnoreOrientation>
+    </building>
+    <comps Inherit="False">
+      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_RitualSeat" />
+      <li Class="VFESecurity.CompProperties_TerrainSetter" MayRequire="vanillaexpanded.vfesecurity">
+				<terrainDef>VFES_TrenchTerrain</terrainDef>
+			</li>
+    </comps>
+  </ThingDef>
+
+</Defs>

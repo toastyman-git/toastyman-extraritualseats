@@ -1,0 +1,12 @@
+<Defs>
+
+    <ThingStyleDef MayRequire="sarg.alphamemes">
+        <defName>TST_Ocular_KneelPillow</defName>
+        <graphicData>
+            <texPath>BuildingStyles/AM_Ocular/KneelPillow/KneelPillow</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(1,1)</drawSize>
+        </graphicData>
+    </ThingStyleDef>
+
+</Defs>
